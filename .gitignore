@@ -1,0 +1,34 @@
+# local settings
+local_config.py
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# virtual environments
+.venv/
+venv/
+
+# vscode settings
+.vscode/
+
+# logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env
+
+# data (optional)
+data/raw/
+data/interim/
+
+# tableau
+Tableau/   

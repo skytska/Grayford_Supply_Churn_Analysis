@@ -1,0 +1,12 @@
+# ask GitHub to treat SQL as code
+*.sql linguist-detectable=true
+# ask GitHub to treat Jupyter Notebooks as Python code
+*.ipynb linguist-language=Python
+
+
+# ignore technical garbage if it suddenly remains
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.f90 linguist-vendored
+*.pyc linguist-vendored
