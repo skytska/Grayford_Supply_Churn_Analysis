@@ -195,4 +195,4 @@ The most important signals are **behavioral**:
 *Technical summary of tools and analytical methods used in this project*:
 - Tools: Python (Pandas), Jupyter Notebook, SQL, Tableau  
 - Analytical Techniques: Data cleaning & preprocessing, Exploratory Data Analysis (EDA), Cohort analysis & retention, curves, Churn definition using behavioral thresholds, Feature engineering (RFM & behavioral features), Customer segmentation, Data validation & metric reconciliation, Dashboard design & data storytelling
-- Key Metrics: Customer Retention Rate, Churn Rate, Cohort Retention (%), Revenue Retention vs User Retention, Monetary, Purchase Frequency, Days Between Orders, Recency, Average Order Value (AOV),Revenue Concentration (Pareto distribution), Return Probability**  
+- Key Metrics: Customer Retention Rate, Churn Rate, Cohort Retention (%), Revenue Retention vs User Retention, Monetary, Purchase Frequency, Days Between Orders, Recency, Average Order Value (AOV), Revenue Concentration (Pareto distribution), Return Probability 
