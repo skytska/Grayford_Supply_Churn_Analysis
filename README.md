@@ -20,26 +20,15 @@ The platform functions as a centralized procurement hub, where retailers and dis
 
 The analysis focuses on three core business dimensions:
 
-### Customer Retention
-- Cohort analysis  
-- Retention curves  
-- Early lifecycle drop-off  
-
-### Revenue Dynamics
-- Revenue retention vs user retention  
-- Revenue concentration (**Pareto analysis**)  
-- Customer value distribution  
-
-### Churn Drivers
-- Behavioral differences (**recency, frequency, activity**)  
-- Segment-level churn  
-- Return probability and churn threshold  
+- **Customer Retention**: cohort analysis, retention curves, early lifecycle drop-off  
+- **Revenue Dynamics**: revenue retention vs user retention, revenue concentration (**Pareto analysis**), customer value distribution  
+- **Churn Drivers**: behavioral differences (**recency, frequency, activity**), segment-level churn, return probability and churn threshold  
 
 ---
 
 ## II. Data Structure & Validation
 
-The dataset includes **500,000+ transactions** and is structured at a **transaction (line-item) level**, not order-level.
+The [dataset](('https://archive.ics.uci.edu/dataset/352/online+retail') ) includes **500,000+ transactions** and is structured at a **transaction (line-item) level**, not order-level.
 
 This enables **detailed behavioral analysis** but requires aggregation to derive **customer-level insights**.
 
@@ -51,25 +40,9 @@ This enables **detailed behavioral analysis** but requires aggregation to derive
 
 The project follows a **full ETL pipeline** to simulate a production-level analytical workflow:
 
-### Python (Pandas)
-- Data cleaning and preprocessing  
-- Handling missing values and outliers  
-- Feature engineering (**RFM metrics, behavioral features**)  
-- Exploratory analysis and **churn threshold validation**  
-
-### PostgreSQL
-- Transformation of raw data into analytical tables:
-  - `orders`  
-  - `customer_features`  
-  - `cohort_retention_long`  
-  - `cohort_summary`  
-- Creation of **reusable views for BI tools**  
-- Cohort and retention calculations  
-
-### Tableau
-- Dashboard development  
-- Metric validation and business logic alignment  
-- Data storytelling and visualization  
+- [Python (Pandas)](python): data cleaning and preprocessing, handling missing values and outliers,feature engineering (**RFM metrics, behavioral features**), exploratory analysis and **churn threshold validation**  
+- [PostgreSQL](sql): transformation of raw data into analytical tables (`orders`, `customer_features`,`cohort_retention_long`, `cohort_summary`);  creation of **reusable views for BI tools**; cohort and retention calculations  
+- [Tableau](https://public.tableau.com/app/profile/skytska/viz/GrayfordSupplyChurnRetentionAnalysis/RETENTION): Dashboard development, metric validation and business logic alignment, data storytelling and visualization  
 
 ---
 
