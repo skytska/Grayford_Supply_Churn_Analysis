@@ -28,7 +28,7 @@ The analysis focuses on three core business dimensions:
 
 ## II. Data Structure & Validation
 
-The [dataset](('https://archive.ics.uci.edu/dataset/352/online+retail') ) includes **500,000+ transactions** and is structured at a **transaction (line-item) level**, not order-level.
+The [dataset](https://archive.ics.uci.edu/dataset/352/online+retail) includes **500,000+ transactions** and is structured at a **transaction (line-item) level**, not order-level.
 
 This enables **detailed behavioral analysis** but requires aggregation to derive **customer-level insights**.
 
